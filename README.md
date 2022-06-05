@@ -24,10 +24,10 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div style="text-align: center;">
-    <a style="display: flex; justify-content: center; align-items: center;" href="https://github.com/svaldivia12/datetime_toolkit">
-        <img style="margin-right: 0.7rem;" src="images/logo.png" alt="Logo" width="80" height="80">
-        <span style="font-size: 2rem; font-weight: 700;">Datetime Toolkit</span>
+<div align="center">
+    <a href="https://github.com/svaldivia12/datetime_toolkit">
+        <img src="images/logo.png" alt="Logo" width="80" height="80">
+        <h3 align="center">Datetime Toolkit</h3>
     </a>
     <p align="center">
         Python package to work with NTP servers, time zones, and localized names of months and days of the week.
