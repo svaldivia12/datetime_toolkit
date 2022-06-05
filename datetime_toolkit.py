@@ -116,8 +116,7 @@ class DatetimeToolkit:
         """:param custom_datetime: Datetime object to be used to find the name of the month.
         :param is_request_forced: Boolean to query the server instead of calculating the server time from delta_server.
         :param is_utc: Boolean to use given time zone or UTC time zone.
-        :return: String of the localized month name. Format defaults to first letter uppercase and the rest lowercase,
-        and this can be changed using are_lowercase boolean parameter."""
+        :return: String of the localized month name."""
         if custom_datetime is None:
             now = self.datetime(is_request_forced = is_request_forced, is_utc = is_utc)
         else:
@@ -128,8 +127,7 @@ class DatetimeToolkit:
         """:param custom_datetime: Datetime object to be used to find the name of the day.
         :param is_request_forced: Boolean to query the server instead of calculating the server time from delta_server.
         :param is_utc: Boolean to use given time zone or UTC time zone.
-        :return: String of the localized day name. Format defaults to first letter uppercase and the rest lowercase,
-        and this can be changed using are_lowercase boolean parameter."""
+        :return: String of the localized day name."""
         if custom_datetime is None:
             now = self.datetime(is_request_forced = is_request_forced, is_utc = is_utc)
         else:
