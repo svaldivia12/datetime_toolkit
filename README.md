@@ -26,7 +26,7 @@
 <br />
 <div align="center">
     <a href="https://github.com/svaldivia12/datetime_toolkit">
-        <img src="images/logo.png" alt="Logo" width="80" height="80">
+        <img src="https://github.com/svaldivia12/datetime_toolkit/raw/main/images/logo.png" alt="Logo" width="80" height="80">
         <h3 align="center">Datetime Toolkit</h3>
     </a>
     <p align="center">
