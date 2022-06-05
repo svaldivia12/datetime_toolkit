@@ -20,7 +20,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name = 'datetime_toolkit',
-    version = '1.0.0',
+    version = '1.0.1',
     author = 'Sebastián Valdivia Loyola',
     author_email = 'admin@svaldivia.cl',
     description = 'Python package to work with NTP servers, time zones, and localized names of months and days of the week.',
