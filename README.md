@@ -131,20 +131,20 @@ print(datetime_toolkit.days)
 | months | List with the names of the months as strings. Language used is determined by locale parameter or system default. First letter is uppercase and the rest lowercase.           |
 
 
-| **Method** | **Returns** |
-|---|---|
-| @staticmethod<br/>country_information(alpha_2_code: str) | Dictionary with country information. Keys are the strings "country" and "time_zones". |
-| locale() | Locale used as string. None if no locale was provided. |
-| server_url() | NTP server URL/IP as string. |
-| tz() | Object datetime.tzinfo for the given time zone. |
-| local_time() | Float timestamp of the current local time. Wrapper of time.time() |
-| server_time() | Int timestamp of the server time. |
-| datetime(is_request_forced = False, is_utc = False) | Datetime object using given time zone. |
-| string(is_request_forced = False, is_utc = False, string_format = '%Y-%m-%d %H:%M:%S') | String representing datetime using string_format. |
-| float_to_datetime(timestamp: float, is_utc = False) | Datetime from timestamp using given time zone. |
-| float_to_string(timestamp: float, is_utc = False, string_format = '%Y-%m-%d %H:%M:%S') | String from timestamp using given time zone and string_format. |
+| **Method** | **Returns**                                                                                    |
+|---|------------------------------------------------------------------------------------------------|
+| @staticmethod<br/>country_information(alpha_2_code: str) | Dictionary with country information. Keys are the strings "country" and "time_zones".          |
+| locale() | Locale used as string. None if no locale was provided.                                         |
+| server_url() | NTP server URL/IP as string.                                                                   |
+| tz() | Object datetime.tzinfo for the given time zone.                                                |
+| local_time() | Float timestamp of the current local time. Wrapper of time.time()                              |
+| server_time() | Integer timestamp of the server time.                                                          |
+| datetime(is_request_forced = False, is_utc = False) | Datetime object using given time zone.                                                         |
+| string(is_request_forced = False, is_utc = False, string_format = '%Y-%m-%d %H:%M:%S') | String representing datetime using string_format.                                              |
+| float_to_datetime(timestamp: float, is_utc = False) | Datetime from timestamp using given time zone.                                                 |
+| float_to_string(timestamp: float, is_utc = False, string_format = '%Y-%m-%d %H:%M:%S') | String from timestamp using given time zone and string_format.                                 |
 | name_month(custom_datetime: datetime = None, is_request_forced = False, is_utc = False) | String of the localized month name. If custom_datetime is None, it will use datetime() method. |
-| name_day(custom_datetime: datetime = None, is_request_forced = False, is_utc = False) | String of the localized day name. If custom_datetime is None, it will use datetime() method. |
+| name_day(custom_datetime: datetime = None, is_request_forced = False, is_utc = False) | String of the localized day name. If custom_datetime is None, it will use datetime() method.   |
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
